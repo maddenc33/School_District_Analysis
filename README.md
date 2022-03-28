@@ -68,15 +68,17 @@ Once the data was clean and ready for analysis, I performed basic statistical ca
   6. Create the new dataframe and clean it up.
 Once the dataframes were clean and ready for analysis, I could make statistical calulations on the data to determine the highest and lowest performing schools.
 
-| Lowest Performing School | Highest Performing School |
-| -------- | -------- |
-| cell 1   | cell 2   |
-| cell 3   | cell 4   |
-
 ```python
 # Example code
 ```
 
 ---
+
+## Analysis
+
+| Lowest Performing School | Highest Performing School |
+| -------- | -------- |
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
 
 ## Challenge Summary
