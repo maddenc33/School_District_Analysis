@@ -1,6 +1,6 @@
 # School_District_Analysis
 #### by Christopher Madden
-
+-----------------------------------------------------------------------------------------------
 
 ## Project Overview
 Here is the list of deliverables for the analysis of the school district: 
@@ -23,17 +23,17 @@ GitHub Repository URL
 
 ### Data Sources
 
-schools_complete.csv
+ - schools_complete.csv
 
-students_complete.csv
+ - students_complete.csv
 
 ### Software
 
-Python 3.9.7
+ - Python 3.9.7
 
-Jupyter Notebook 6.4.5
+ - Jupyter Notebook 6.4.5
 
-Anaconda 4.12.0
+ - Anaconda 4.12.0
 
 > conda version : 4.12.0
 > 
