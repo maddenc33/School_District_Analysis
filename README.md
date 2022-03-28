@@ -1,5 +1,6 @@
 # School_District_Analysis
-#### by Christopher Madden
+#### Christopher Madden
+maddenc33@gmail.com
 ---
 
 ## Project Overview
