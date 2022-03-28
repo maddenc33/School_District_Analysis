@@ -1,6 +1,8 @@
 # School_District_Analysis
-#### Christopher Madden
-<span style="color: red">I am red</span>
+```diff
+- red
+Christopher Madden
+```
 ---
 
 ## Project Overview
