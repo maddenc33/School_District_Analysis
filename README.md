@@ -14,12 +14,15 @@ Here is the list of deliverables for the analysis of the school district:
     - School performance based on the type of school
 
 ## Resources
-##### Data Source
+#### Data Source
 schools_complete.csv
+
 students_complete.csv
-##### Software
+#### Software
 Python 3.9.7
+
 Jupyter Notebook 6.4.5
+
 Anaconda 4.12.0
 
 > conda version : 4.12.0
