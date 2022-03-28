@@ -51,7 +51,7 @@ GitHub Repository URL
 
 ## Challenge Overview
 
-```js
+```python
 # Example code
 ```
 
