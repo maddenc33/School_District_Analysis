@@ -1,6 +1,6 @@
 # School_District_Analysis
 #### by Christopher Madden
------------------------------------------------------------------------------------------------
+---
 
 ## Project Overview
 Here is the list of deliverables for the analysis of the school district: 
@@ -15,6 +15,7 @@ Here is the list of deliverables for the analysis of the school district:
     - School performance based on the school size 
     - School performance based on the type of school
 
+---
 
 ## Resources
 
@@ -41,12 +42,18 @@ GitHub Repository URL
 > 
 > python version : 3.9.7.final.0
 
+---
+
 # Summary
+
+---
 
 ## Challenge Overview
 
 ```
 # Example code
 ```
+
+---
 
 ## Challenge Summary
