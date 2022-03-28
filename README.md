@@ -23,7 +23,7 @@ Here is the list of deliverables for the analysis of the school district:
 
 GitHub Repository URL:
 
-[https://github.com/maddenc33/School_District_Analysis]
+https://github.com/maddenc33/School_District_Analysis
 
 ### Data Sources
 
