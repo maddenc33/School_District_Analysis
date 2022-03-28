@@ -1,4 +1,5 @@
 # School_District_Analysis
+#### Christopher Madden
 
 ## Project Overview
 Here is the list of deliverables for the analysis of the school district: 
@@ -14,11 +15,12 @@ Here is the list of deliverables for the analysis of the school district:
     - School performance based on the type of school
 
 ## Resources
-#### Data Source
+[GitHub Repository URL](https://github.com/maddenc33/School_District_Analysis)
+### Data Source
 schools_complete.csv
 
 students_complete.csv
-#### Software
+### Software
 Python 3.9.7
 
 Jupyter Notebook 6.4.5
@@ -30,8 +32,6 @@ Anaconda 4.12.0
 > conda-build version : 3.21.6
 > 
 > python version : 3.9.7.final.0
-
-[GitHub Repository URL](https://github.com/maddenc33/School_District_Analysis)
 
 # Summary
 
