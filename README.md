@@ -58,6 +58,7 @@ The first challenge I faced involved cleaning the data.  The following technique
   3. Determine data types.
   4. Replace inccorect student names.
   5. Generate a new merged dataframe.
+
 Once the data was clean and ready for analysis, I performed basic statistical calculations on the data, then formatted and reordered the dataframe to create a new **School District Summary**.  In order to generate the **School Summary**, I had to manipulate the data further:
   1. Set the index to the school name.
   2. Get the student count per school.
