@@ -1,7 +1,6 @@
 # School_District_Analysis
 ```diff
-- red
-Christopher Madden
++ Christopher Madden
 ```
 ---
 
