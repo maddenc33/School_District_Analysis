@@ -36,11 +36,11 @@ GitHub Repository URL
 
  - Anaconda 4.12.0
 
->  conda version : 4.12.0
-> 
->  conda-build version : 3.21.6
-> 
->  python version : 3.9.7.final.0
+  >  conda version : 4.12.0
+  > 
+  >  conda-build version : 3.21.6
+  > 
+  >  python version : 3.9.7.final.0
 
 ---
 
