@@ -82,3 +82,4 @@ Once the dataframes were clean and ready for analysis, I could make statistical 
 | cell 3   | cell 4   |
 
 ## Challenge Summary
+A big part of data anlysis is identifying, gathering, formatting, and cleaning large data sets.
