@@ -59,7 +59,20 @@ The first challenge I faced involved cleaning the data.  The following python me
   4. Replace inccorect student names: .len(), .to_list() .split(), .set(), .strip(), and .replace().
   5. Generate a new merged dataframe:
 
-Once the data was clean and ready for analysis, I performed basic statistical calculations on the data, then formatted and reordered the dataframe to create a new **School District Summary**.  In order to generate the **School Summary**, I had to manipulate the data further:
+Once the data was clean and ready for analysis, I performed basic statistical calculations on the data, then formatted and reordered the dataframe to create a new **School District Summary**.
+
+The **School District Summary** is a high-level snapshot of the district's key metrics:
+
+- Total number of students
+- Total number of schools
+- Total budget
+- Average math score
+- Average reading score
+- Percentage of students who passed math
+- Percentage of students who passed reading
+- Overall passing percentage
+
+In order to generate the **School Summary**, I had to manipulate the data further:
   1. Set the index to the school name.
   2. Get the student count per school.
   3. Calculate the budget per student.
