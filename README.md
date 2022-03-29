@@ -52,12 +52,12 @@ https://github.com/maddenc33/School_District_Analysis
 ---
 
 ## Challenge Overview
-The first challenge I faced involved cleaning the data.  The following techniques were performed to clean the data:
+The first challenge I faced involved cleaning the data.  The following python methods were performed to clean the data:
   1. Find missing values.  Methods used include: .count(), .isnull() and .notnull().
-  2. Handle missing data.
-  3. Determine data types.
-  4. Replace inccorect student names.
-  5. Generate a new merged dataframe.
+  2. Handle missing data: .dropna() and .fillna().
+  3. Determine data types: .dtypes
+  4. Replace inccorect student names: .len(), .to_list() .split(), .strip(), and .replace().
+  5. Generate a new merged dataframe:
 
 Once the data was clean and ready for analysis, I performed basic statistical calculations on the data, then formatted and reordered the dataframe to create a new **School District Summary**.  In order to generate the **School Summary**, I had to manipulate the data further:
   1. Set the index to the school name.
