@@ -57,7 +57,7 @@ The first challenge I faced involved cleaning the data.  The following python me
   2. Handle missing data: .dropna() and .fillna().
   3. Determine data types: .dtypes
   4. Replace inccorect student names: .len(), .to_list() .split(), .set(), .strip(), and .replace().
-  5. Generate a new merged dataframe:
+  5. Generate a new merged dataframe: .merge().
 
 Once the data was clean and ready for analysis, I performed basic statistical calculations on the data, then formatted and reordered the dataframe to create a new **School District Summary**.
 
