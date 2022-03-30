@@ -72,7 +72,7 @@ The **School District Summary** is a high-level snapshot of the district's key m
 - Percentage of students who passed reading
 - Overall passing percentage
 
-In order to generate the **School Summary**, I had to manipulate the data further:
+In order to generate the **School Summary**, I had to manipulate the data further, using similar methods as before:
   1. Set the index to the school name.
   2. Get the student count per school.
   3. Calculate the budget per student.
@@ -80,6 +80,8 @@ In order to generate the **School Summary**, I had to manipulate the data furthe
   5. Calculate the passing percentages per school.
   6. Create the new dataframe and clean it up.
 Once the dataframes were clean and ready for analysis, I could make statistical calulations on the data to determine the highest and lowest performing schools.
+
+An issue was then brought up with the data involving falsified grades.  In order for the data to be re-evaluated, I needed to implement code that would remove the fraudulent test scores from the sample so that the analysis could be run again.
 
 ```python
 # Example code
