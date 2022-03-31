@@ -92,12 +92,13 @@ An issue was then brought up with the data involving falsified grades.  In order
 ## Analysis
 The following is a summary of some of the key findings:
 
-Highest Performing School | Cabrera High School
-Avg. Math Score   | 94.1%
-Avg. Reading Score   | 97.0%
-Overall Avg. Score | 91.3%
+| Highest Performing School | Cabrera High School |
+| Avg. Math Score   | 94.1% |
+| Avg. Reading Score   | 97.0% |
+| Overall Avg. Score | 91.3% |
 
 | Lowest Performing School | Rodriguez High School |
+| --- | --- |
 | Avg. Math Score   | 66.4% |
 | Avg. Reading Score   | 80.2% |
 | Overall Avg. Score | 53.0% |
