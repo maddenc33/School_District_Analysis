@@ -163,4 +163,10 @@ Scores by School Type:
 ## Challenge Summary
 A big part of data anlysis is identifying, gathering, formatting, and cleaning large data sets.  Not only did we have to perform a lot of cleaning and formatting of the data initially, I also have to have the ability to retroactively reclean and reformat the data if an issue arises, as is the case here with fraudulent test scores.  Python, through the Pandas library, makes handling and manipulating large data sets like these much easier to automate.
 
-An analysis of this particular data demonstrates how the outcome changed based on the inclusion or exclusion of the now fraudulent Thomas High School 9th grade reading and math score data.
+An analysis of this particular data demonstrates how the outcome changed based on the inclusion or exclusion of the now fraudulent Thomas High School 9th grade reading and math score data.  The following are some of the statistical metrics that changed when we removed the fraudulent data:
+
+ - Thomas High School saw a drop in overall passing percentage of less than 1% and remained the #2 overall highest scoring school.
+ - It seems as though, in this dataset, there exists a negative correlation between school spending and the resulting test scores.
+ - Larger schools seem to correlate to lower overall passing percentage.  There is a negative correlation.
+ - Charter schools generally outperform district schools.
+ - Reading scores are overall higher than math scores.
