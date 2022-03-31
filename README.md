@@ -81,18 +81,49 @@ In order to generate the **School Summary**, I had to manipulate the data furthe
   6. Create the new dataframe and clean it up.
 Once the dataframes were clean and ready for analysis, I could make statistical calulations on the data to determine the highest and lowest performing schools.
 
-An issue was then brought up with the data involving falsified grades.  In order for the data to be re-evaluated, I needed to implement code that would remove the fraudulent test scores from the sample so that the analysis could be run again.
+An issue was then brought up with the data involving falsified grades.  In order for the data to be re-evaluated, I needed to implement code that would remove the fraudulent test scores from the sample so that the analysis could be run again.  Below is an example of the code used to accomplish the removal of bad data:
 
 ```python
-# Example code
+
+# Get the number of 10th-12th graders from Thomas High School (THS).
+thomas_10_to_12 = student_data_df.loc[((student_data_df["grade"] == "10th") | (student_data_df["grade"] == "11th") | (student_data_df["grade"] == "12th")) & (student_data_df["school_name"] == "Thomas High School"), "Student ID"].count()
+
+# Get all the students passing math from THS
+thomas_passing_math_df = student_data_df.loc[((student_data_df["grade"] == "10th") | (student_data_df["grade"] == "11th") | (student_data_df["grade"] == "12th")) & (student_data_df["math_score"] >= 70) & (student_data_df["school_name"] == "Thomas High School")]
+
+# Get all the students passing reading from THS
+thomas_passing_reading_df = student_data_df.loc[((student_data_df["grade"] == "10th") | (student_data_df["grade"] == "11th") | (student_data_df["grade"] == "12th")) & (student_data_df["reading_score"] >= 70) & (student_data_df["school_name"] == "Thomas High School")]
+
+# Get all the students passing math and reading from THS
+thomas_passing_both_df = student_data_df.loc[((student_data_df["grade"] == "10th") | (student_data_df["grade"] == "11th") | (student_data_df["grade"] == "12th")) & (student_data_df["math_score"] >= 70) & (student_data_df["reading_score"] >= 70) & (student_data_df["school_name"] == "Thomas High School")]
+
+# Calculate the percentage of 10th-12th grade students passing math from Thomas High School.
+thomas_math_percent = thomas_passing_math_df["Student ID"].count() / thomas_10_to_12 *100
+
+# Calculate the percentage of 10th-12th grade students passing reading from Thomas High School.
+thomas_reading_percent = thomas_passing_reading_df["Student ID"].count() / thomas_10_to_12 *100
+
+# Calculate the overall passing percentage of 10th-12th grade from Thomas High School. 
+thomas_ovr_percent = thomas_passing_both_df["Student ID"].count() / thomas_10_to_12 *100
+
+# Replace the passing math percent for Thomas High School in the per_school_summary_df.
+per_school_summary_df.loc["Thomas High School","% Passing Math"] = thomas_math_percent
+
+# Replace the passing reading percentage for Thomas High School in the per_school_summary_df.
+per_school_summary_df.loc["Thomas High School","% Passing Reading"] = thomas_reading_percent
+
+# Replace the overall passing percentage for Thomas High School in the per_school_summary_df.
+per_school_summary_df.loc["Thomas High School","% Overall Passing"] = thomas_ovr_percent
+
 ```
 
 ---
 
 ## Analysis
-The following is a summary of some of the key findings:
+The following is a summary of some of the key overall findings:
 
 | Highest Performing School | Cabrera High School |
+| --- | --- |
 | Avg. Math Score   | 94.1% |
 | Avg. Reading Score   | 97.0% |
 | Overall Avg. Score | 91.3% |
