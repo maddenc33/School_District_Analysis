@@ -134,7 +134,17 @@ The following is a summary of some of the key overall findings:
 | Avg. Reading Score   | 80.2% |
 | Overall Avg. Score | 53.0% |
 
+Scores by School Spending:
+
+| Spending Ranges (Per Student) | Average Math Score |	Average Reading Score	| % Passing Math |	% Passing Reading |	% Overall Passing	 |		
+| --- | --- | --- | --- | --- | --- |
+| <$586	| 83.5 |	83.9 |	93	| 97	| 90 |
+| $586-630 |	81.9	| 83.2 |	87 |	93 |	81 |
+| $631-645	|78.5 |	81.6 |	73 |	84 |	63  |
+| $646-675 |	77.0	| 81.0	| 66	| 81	| 54 |
+
+
 ---
 
 ## Challenge Summary
-A big part of data anlysis is identifying, gathering, formatting, and cleaning large data sets.
+A big part of data anlysis is identifying, gathering, formatting, and cleaning large data sets.  Not only did we have to perform a lot of cleaning and formatting of the data initially, I also have to have the ability to retroactively reclean and reformat the data if an issue arises, as is the case here with fraudulent test scores.  Python, through the Pandas library, makes handling and manipulating large data sets like these much easier to automate.
