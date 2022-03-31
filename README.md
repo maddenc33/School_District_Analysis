@@ -153,7 +153,8 @@ Scores by School Size:
 
 Scores by School Type:
 
-| School Type | Average Math Score |	Average Reading Score |	% Passing Math |	% Passing Reading	| % Overall Passing	|		
+| School Type | Average Math Score |	Average Reading Score |	% Passing Math |	% Passing Reading	| % Overall Passing	|	
+| --- | --- | --- | --- | --- | --- |
 | Charter |	83.5 |	83.9 |	94 |	97 |	90 |
 | District	| 77.0	| 81.0	| 67	| 81	| 54 |
 
