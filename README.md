@@ -90,13 +90,13 @@ An issue was then brought up with the data involving falsified grades.  In order
 ---
 
 ## Analysis
-| Highest Performing School |
-| -------- |
+| Highest Performing School | |
+| -------- | |
 | Avg. Math Score   | Avg. Reading Score   |
 | cell 3   | cell 4   |
 
-| Lowest Performing School |
-| -------- |
+| Lowest Performing School | |
+| -------- | |
 | Avg. Math Score   | Avg. Reading Score   |
 | cell 3   | cell 4   |
 
