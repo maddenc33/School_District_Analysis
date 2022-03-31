@@ -143,6 +143,19 @@ Scores by School Spending:
 | $631-645	|78.5 |	81.6 |	73 |	84 |	63  |
 | $646-675 |	77.0	| 81.0	| 66	| 81	| 54 |
 
+Scores by School Size:
+
+| School Size | Average Math Score |	Average Reading Score	| % Passing Math |	% Passing Reading |	% Overall Passing	|
+| --- | --- | --- | --- | --- | --- |
+| Small (<1000)	| 83.8 |	83.9 |	94 |	96 |	90 |
+| Medium (1000-1999)	| 83.4	| 83.9	| 94	| 97	| 91 |
+| Large (2000-5000)	| 77.7	| 81.3 |	70	| 83 |	58 |
+
+Scores by School Type:
+
+| School Type | Average Math Score |	Average Reading Score |	% Passing Math |	% Passing Reading	| % Overall Passing	|		
+| Charter |	83.5 |	83.9 |	94 |	97 |	90 |
+| District	| 77.0	| 81.0	| 67	| 81	| 54 |
 
 ---
 
